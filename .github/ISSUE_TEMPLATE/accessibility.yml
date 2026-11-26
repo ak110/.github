@@ -1,0 +1,27 @@
+name: アクセシビリティの障壁
+description: 利用中に遭遇した障壁を報告する
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: しようとしたこと
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 起きたこと
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待した結果
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 環境や支援技術（任意）
+    validations:
+      required: false
